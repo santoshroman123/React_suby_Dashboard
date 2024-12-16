@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Roboto", serif;
+}
+.navsection{
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#8338ec;
+    color:#fff;
+    padding:0px 20px;
+    font-size: 1.2rem;
+}
+.sidebarsection{
+    background:#06d6a0;
+    width:100%;
+    max-width: 15%;
+    height:88vh;
+    padding-top:10px;
+}
+.sidebarsection ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight:600;
+    font-size:20px;
+    cursor: pointer;
+}
+.collectionsection{
+    display: flex;
+}
+.loginsection{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userauth{
+    cursor: pointer;
+}
+.authform{
+    width:100%;
+    max-width: 50%;
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border:1px solid grey;
+    border-radius:10px;
+}
+.authform label{
+    width:100%;
+    max-width: 55%;
+    font-weight:500;
+    font-size: 20px;
+}
+.authform input{
+    width:100%;
+    max-width: 55%;
+    height: 1.4rem;
+}
+/* registersection */
+.registersection{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add firm */
+.firmsection{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tableform{
+    width:100%;
+    max-width: 50%;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border:1px solid grey;
+    border-radius:10px;
+    -webkit-box-shadow: 2px -1px 20px 11px rgba(217,13,197,1);
+    -moz-box-shadow: 2px -1px 20px 11px rgba(217,13,197,1);
+    box-shadow: 2px -1px 20px 11px rgba(217,13,197,1);
+}
+.tableform input{
+    width:100%;
+    max-width: 70%;
+    height: 1.7rem;
+    margin-bottom: 10px;
+
+}
+.tableform label{
+    width:100%;
+    max-width:71.5%;
+    font-weight:500;
+    font-size:18px;
+}
+/* checkbox inputs */
+.check-inp{
+    margin-top:10px;
+    margin-bottom: 10px;
+    width:100%;
+    max-width:72%;
+    display: flex;
+}
+.check-inp label{
+  width:30%;
+}
+.inputs-container{
+ display: flex;
+ width:100%;
+ }
+.check-box{
+    width:100%;
+    max-width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check-box label{
+    width: 100%;
+    font-size: 16px;
+}
+.check-box input{
+    margin-left:-70px;
+}
+.check-box .veg{
+   margin-left:50px;
+}
+
+.check-region{
+    margin-top:10px;
+    width: 100%;
+    max-width:72%;
+    display: flex;
+}
+.check-region .lable{
+    width: 100%;
+    max-width: 20%;
+}
+.inputs-region{
+   
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.inputs-region .row1{
+    display: flex;
+}
+.inputs-region .row2{
+    display: flex;
+}
+.row1 .check-region{
+    width:100%;
+    max-width:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row1 .check-region label{
+   font-size:15px;
+}
+.row1 .check-region input{
+    margin-left:-20px;
+}
+.row2 .check-region{
+   
+    width:100%;
+    max-width:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row2 .check-region label{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.row2 .check-region input{
+    margin-left: -40px;
+}
+/* product table */
+.producttable{
+    border:2px solid red;
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    margin:20px auto 0px 200px;
+}
+.producttable th,.producttable td{
+    border:2px solid black;
+    padding:8px;
+}
+.Errorsection{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Errorsection h1{
+    font-size:4rem;
+}
+.btnsubmit button{
+        
+        min-width:80px;
+        height:30px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        margin-bottom: 10px;
+        background-size: 120% auto;
+        background-image: linear-gradient(315deg, #833ab4 0%, #fd1d1d 50%, #fcb045);
+      }
+.btnsubmit :hover {
+        background-position: right center;
+      }
+.btnsubmit:active {
+        top: 2px;
+      }
